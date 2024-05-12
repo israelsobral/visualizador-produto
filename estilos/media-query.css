@@ -2,9 +2,14 @@
 
 @media screen and (min-width: 1024px) {
     section#principal {
-        width: 50vw;
-        height: 370px;
-    
+        width: 46vw;
+        height: 360px;
+        
+        position: absolute;
+        top: 50%;
+        left: 50%;
+
+        transform: translate(-50%, -50%);
     }
 
     div#foto {
@@ -18,7 +23,7 @@
 
     div#descricao {
         float: right;
-        width: 40%;
+        width:42%;
         height: 100%;
         display: inline;
     }
